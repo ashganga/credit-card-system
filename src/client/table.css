@@ -1,0 +1,27 @@
+#table-title {
+    margin: 20px 0 20px 0;
+    text-align: left;
+    font-family: arial, sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  #cards {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid ;
+    width: 100%;
+  }
+  
+  #cards td, #cards th {
+    border: 1px solid;
+    padding: 8px;   
+  }
+  
+  #cards th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid;
+  }
