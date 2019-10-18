@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const data = require('./data');
 
 const app = express();
+app.use(express.static('dist'));
 
 // splitting the number string, then on every odd digit making it double
 // reducing the array furher so that for each value in array if the value greater than 10,
